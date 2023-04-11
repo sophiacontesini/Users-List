@@ -1,8 +1,11 @@
+import Header from "./components/Header";
+import { Users } from "./components/Users";
 
 function App() {
   return (
-    <div className="App">
-  <p>Colab Users</p>
+    <div>
+    <Header/>
+    <Users/>
     </div>
   );
 }
