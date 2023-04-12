@@ -2,13 +2,13 @@
 
 Para rodar o projeto localmente, siga as instruções:
 
-1-Crie uma pasta para hospedar o projeto
+1-Crie uma pasta para hospedar o projeto:
 mkdir test-colab
 
-2- Entre na pasta do repositório criada
+2- Entre na pasta do repositório criada:
 cd test-colab
 
-3- Faça o clone do repositório na pasta que você criou
+3- Faça o clone do repositório na pasta que você criou: 
 git clone git@github.com:sophiacontesini/colab.git
 
 4- Instale as dependências do projeto:
