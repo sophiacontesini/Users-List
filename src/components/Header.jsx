@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <Typography
         variant='h2'
-        color= 'secondary'
+        color='secondary'
         mt={4}
         align='center'
       >

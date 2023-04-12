@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
-import { Divider, List, ListItem } from '@mui/material';
+import { Grid } from '@mui/material';
 import { useEffect, useState } from 'react';
-import { getUsers } from '../services/axiosApi';
+import { getUsers } from '../services/fetchApi';
 import Cards from './Cards';
 
 
@@ -17,16 +17,23 @@ export function Users() {
 
   return (
     <div>
-      <List>
-        {!users? loading: users.map((user, index) => (
-          <ListItem key={index}>
-          <Cards userData={user} />
-          <Divider />
-          </ListItem>
-        )) 
-        }
-      </List>
- 
+        <Grid container spacing={2}>
+          {!users
+            ? loading
+            : users.map((user, index) => (
+                <Grid
+                  item
+                  justifyContent='space-around'
+                  key={index}
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                >
+                  <Cards userData={user} />
+                </Grid>
+              ))}
+        </Grid>
     </div>
   );
 }
