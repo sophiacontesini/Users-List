@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import { Grid } from '@mui/material';
 import { useEffect, useState } from 'react';
-import { getUsers } from '../services/fetchApi';
+import getUsers from '../services/fetchApi';
 import Cards from './Cards';
 
 
@@ -17,23 +17,23 @@ export function Users() {
 
   return (
     <div>
-        <Grid container spacing={2}>
-          {!users
-            ? loading
-            : users.map((user, index) => (
-                <Grid
-                  item
-                  justifyContent='space-around'
-                  key={index}
-                  xs={12}
-                  sm={6}
-                  md={4}
-                  lg={3}
-                >
-                  <Cards userData={user} />
-                </Grid>
-              ))}
-        </Grid>
+      <Grid container>
+        {!users
+          ? loading
+          : users.map((user, index) => (
+              <Grid
+                item
+                alignItems='center'
+                key={index}
+                xs={12}
+                sm={6}
+                md={4}
+               lg={3} 
+              >
+                <Cards userData={user} />
+              </Grid>
+            ))}
+      </Grid>
     </div>
   );
 }

@@ -10,4 +10,4 @@ const getUsers = async (quantity) => {
   }
 };
 
-export { getUsers };
+export default getUsers;
