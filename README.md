@@ -20,20 +20,41 @@ npm start
 
 ## Sobre o projeto:
 ### Tecnologias utilizadas:
+
 ReactJS;
+
 ESLint;
+
 Material UI;
+
 API RandomUser;
-Axios;
+
+JavaScript;
+
+RTL;
 
 
 ### Maiores Desafios:
+
 A implementação de testes na aplicação foi um desafio, pois, apesar de já ter utilizado, não tinha tanta experiência ainda.
+
 Também implementei uma forma de ocultar algumas informações mais sensíveis dos usuários, por meio do botão que revela e oculta tais informações.
 
 
 ### Pontos Positivos:
+
 Design e a paleta de cores utilizada;
-Para esta aplicação, optei por utilizar o axios ao invés de fazer o fetch tradicional para fazer a requisição à API;
+
 Utilizei o Material-UI pois é uma ferramenta que trás recursos próprios muito úteis de estilização;
+
+
+### Pontos de Melhoria:
+
+Implementar mais testes na aplicação;
+
+Criar um modal para exibir as informações;
+
+
+
+
 
