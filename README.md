@@ -1,5 +1,8 @@
 # Users List
 
+![Captura de Tela 2023-08-21 às 11 59 02](https://github.com/sophiacontesini/Users-List/assets/94463723/cbd2837a-74fb-437b-91b2-41f506eb4e8c)
+
+
 Para rodar o projeto localmente, siga as instruções:
 
 1-Crie uma pasta para hospedar o projeto:
